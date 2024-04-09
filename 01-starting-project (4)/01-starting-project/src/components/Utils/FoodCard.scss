@@ -1,0 +1,49 @@
+.food-card-container {
+    .food-card {
+        box-shadow: rgba(5, 254, 84, 0.24) 0px 3px 8px;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: white;
+        color: rgb(156, 37, 207);
+        padding: 2%;
+        border-radius: 10px;
+        .card-img {
+            margin-top: 1%;
+        }
+
+        .food-name {
+            text-align: center;
+            height: 25px;
+        }
+        
+        .food-op {
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            margin-left: 11%;
+            width: 100%;
+            justify-content: flex-end;
+            border-radius: 5px;
+            // border: 2px solid black;
+
+            .food-quantity {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin: auto;
+                
+                .qty-btn {
+                    height: 25px;
+                    width: 25px;
+                    // border: 1px solid black;
+                    margin-left: 5%;
+                }
+                .order-qty {
+                    border: none;
+                }
+            }
+        }
+    }
+}

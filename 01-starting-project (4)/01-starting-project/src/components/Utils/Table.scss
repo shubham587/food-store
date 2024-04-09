@@ -1,0 +1,26 @@
+/* Table.css */
+.table-container{
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.table-content {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  
+}
+
+.table-content th,
+.table-content td {
+//   border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+//   overflow: auto;
+}
+
+.table-content th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  position: fixed;
+}

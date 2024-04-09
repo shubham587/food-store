@@ -1,0 +1,13 @@
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    // border: 2px solid red;
+    // margin: auto;
+    
+    .qty-btn {
+        width: 30px;
+        // border: 2px solid green;
+        height: 30px;
+        margin: auto;
+    }
+}
